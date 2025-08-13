@@ -1,0 +1,56 @@
+# Criando um Banco de Dados no Azure
+
+-Este resumo apresenta os principais pontos aprendidos na aula sobre criação e configuração de um banco de dados na nuvem usando o Microsoft Azure.
+
+🎯 Objetivo da Aula
+
+Aprender a criar um banco de dados gerenciado no Azure, configurar parâmetros básicos e entender o impacto do SLA na disponibilidade.
+
+📌 Passos para Criar um Banco de Dados no Azure
+
+Acessar o Azure Portal
+Entrar em https://portal.azure.com com sua conta Microsoft.
+
+Iniciar o processo
+
+Pesquisar por "SQL Database" (para bancos relacionais) ou outro serviço desejado (Cosmos DB, MySQL, PostgreSQL).
+
+Clicar em "Criar" → "Banco de dados SQL".
+
+Configuração básica
+
+Assinatura: escolher a ativa.
+
+Grupo de recursos: criar ou usar um existente.
+
+Nome do banco: definir um nome único.
+
+Servidor: criar um novo servidor ou selecionar um já existente.
+
+Nome do servidor.
+
+Localização.
+
+Usuário e senha do administrador.
+
+Escolher camada de desempenho
+
+DTUs ou vCores dependendo do modelo.
+
+Ajustar conforme a necessidade de performance e custo.
+
+Opções de backup e redundância
+
+Definir redundância geográfica ou local para backups automáticos.
+
+Revisar e criar
+
+Conferir as configurações.
+
+Clicar em Criar.
+
+Conectar ao banco
+
+Copiar o string de conexão disponível no portal.
+
+Utilizar em aplicativos ou ferramentas como Azure Data Studio / SQL Server Management Studio.
