@@ -1,0 +1,66 @@
+# Bootcamp DIO – Criando uma Máquina Virtual no Azure
+
+Este resumo apresenta os principais pontos aprendidos na aula sobre criação de Máquinas Virtuais (VMs) no Microsoft Azure.
+
+🎯 Objetivo da Aula
+
+Aprender a criar e configurar uma máquina virtual na nuvem usando o Azure Portal, entendendo opções de sistema operacional, rede e disponibilidade.
+
+📌 Passos para Criar uma VM no Azure
+
+Acessar o Azure Portal
+Entrar em https://portal.azure.com com sua conta Microsoft.
+
+Iniciar o processo
+
+Pesquisar por "Máquinas virtuais".
+
+Clicar em "Criar" → "Máquina virtual do Azure".
+
+Configuração básica
+
+Grupo de recursos: criar ou usar um existente.
+
+Nome da VM: definir um identificador claro.
+
+Região: escolher a mais próxima para reduzir latência.
+
+Imagem: selecionar o sistema operacional (Windows ou Linux).
+
+Tamanho: definir de acordo com as necessidades.
+
+Autenticação
+
+Windows: criar usuário e senha.
+
+Linux: criar usuário e chave SSH.
+
+Rede
+
+Configurar portas necessárias (ex: RDP para Windows, SSH para Linux).
+
+Revisar e criar
+
+Conferir todas as configurações.
+
+Clicar em Criar e aguardar implantação.
+
+Acessar a VM
+
+Copiar o IP público da VM.
+
+Conectar via RDP (Windows) ou SSH (Linux).
+
+📊 O que é SLA?
+
+SLA (Service Level Agreement ou Acordo de Nível de Serviço) é o compromisso de disponibilidade que a Microsoft garante para seus serviços.
+No caso das máquinas virtuais no Azure:
+
+99,9% de disponibilidade: tempo de inatividade de 43,2 minutos por mês.
+
+99,95% de disponibilidade: tempo de inatividade de 21,6 minutos por mês.
+
+99,99% de disponibilidade: tempo de inatividade de 4,23 minutos por mês.
+
+
+💡 Importante: quanto maior o SLA, menor a probabilidade de indisponibilidade, mas geralmente o custo também aumenta.
